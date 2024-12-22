@@ -1,0 +1,42 @@
+Bài tập 1: Hệ thống quản lý phương tiện vận tải
+Công ty của bạn cần phát triển một hệ thống quản lý phương tiện vận tải. Các loại phương tiện vận tải có các tính năng chung như bắt đầu di chuyển, dừng lại, tính toán hiệu suất nhiên liệu, và tính phí bảo dưỡng.
+
+Ngoài ra, mỗi loại phương tiện có thể có các cách thức vận hành riêng. Ví dụ, xe hơi và xe tải có cách tính hiệu suất nhiên liệu khác nhau, trong khi xe máy có các yêu cầu bảo dưỡng khác so với xe hơi.
+
+Yêu cầu:
+
+- Thiết kế hệ thống quản lý phương tiện, trong đó có các phương thức cơ bản để điều khiển phương tiện và tính toán các thông số cần thiết.
+- Phương tiện chạy bằng điện sẽ có tính năng sạc pin, còn phương thức chạy bằng xăng dầu sẽ có phương thức đổ nhiên liệu.
+- Hãy xây dựng hệ thống sao cho các phương tiện mới có thể dễ dàng thêm vào mà không làm thay đổi nhiều mã hiện tại.
+
+abstract class Transpotation
+
++void startToMove()
++void stop()
++float calculateEfficiency()                        
++float calculateMaintenance
+
+
+
+Bài tập 2: Hệ thống bán vé sự kiện
+Một công ty tổ chức sự kiện cần phát triển một hệ thống để quản lý việc bán vé cho các sự kiện khác nhau. Các sự kiện có thể là hòa nhạc, hội thảo, hoặc triển lãm.
+
+Mỗi loại sự kiện sẽ có cách bán vé khác nhau: một số sự kiện có thể có vé VIP với quyền lợi đặc biệt, trong khi một số sự kiện khác lại chỉ bán vé thường. Ngoài ra, mỗi loại vé sẽ có chính sách hoàn tiền khác nhau, chẳng hạn vé hòa nhạc có thể hoàn tiền trong vòng 7 ngày, còn vé hội thảo thì không thể hoàn tiền.
+
+Yêu cầu:
+
+- Thiết kế hệ thống bán vé cho các sự kiện, trong đó có các tính năng cơ bản như mua vé, tính tổng tiền, và hoàn tiền.
+- Hệ thống cần hỗ trợ thêm các loại sự kiện và loại vé mới trong tương lai mà không phải sửa đổi mã hiện có.
+- Xây dựng các tính năng liên quan đến vé như tính toán giá vé, chính sách hoàn tiền một cách linh hoạt và có thể mở rộng.
+
+
+Bài 3: Hệ thống thanh toán trong thương mại điện tử
+Công ty thương mại điện tử của bạn cần phát triển một hệ thống để quản lý các phương thức thanh toán cho khách hàng. Các phương thức thanh toán phổ biến bao gồm: thanh toán qua thẻ tín dụng, thanh toán qua ví điện tử, và thanh toán khi nhận hàng.
+
+Mỗi phương thức thanh toán có các yêu cầu và cách xử lý khác nhau. Ví dụ: thanh toán qua thẻ tín dụng cần phải kiểm tra số dư tài khoản, ví điện tử yêu cầu mã xác thực, còn thanh toán khi nhận hàng thì không yêu cầu xác thực ngay lập tức.
+
+Yêu cầu:
+
+- Thiết kế hệ thống hỗ trợ nhiều phương thức thanh toán với các phương thức xử lý khác nhau, bao gồm xác thực thông tin thanh toán, xử lý thanh toán, và kiểm tra trạng thái thanh toán.
+- Hệ thống cần cho phép dễ dàng thêm các phương thức thanh toán mới trong tương lai mà không làm ảnh hưởng đến các phương thức hiện tại.
+- Xây dựng hệ thống sao cho linh hoạt, dễ mở rộng và bảo trì.
